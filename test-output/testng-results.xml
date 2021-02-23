@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-02-23T16:45:51 AEDT" name="Default suite" finished-at="2021-02-23T16:46:18 AEDT" duration-ms="27618">
+  <suite started-at="2021-02-23T17:44:20 AEDT" name="Default suite" finished-at="2021-02-23T17:45:01 AEDT" duration-ms="40770">
     <groups>
     </groups>
-    <test started-at="2021-02-23T16:45:51 AEDT" name="Default test" finished-at="2021-02-23T16:46:18 AEDT" duration-ms="27618">
+    <test started-at="2021-02-23T17:44:20 AEDT" name="Default test" finished-at="2021-02-23T17:45:01 AEDT" duration-ms="40770">
       <class name="com.RealEstate.testCases.PropertiesForSaleTest">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:com.RealEstate.testCases.PropertiesForSaleTest@247310d0]" started-at="2021-02-23T16:45:51 AEDT" name="Setup" finished-at="2021-02-23T16:46:09 AEDT" duration-ms="18494" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.RealEstate.testCases.PropertiesForSaleTest@6be968ce]" started-at="2021-02-23T17:44:20 AEDT" name="Setup" finished-at="2021-02-23T17:44:42 AEDT" duration-ms="22080" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="List_all_properties_Test()[pri:0, instance:com.RealEstate.testCases.PropertiesForSaleTest@247310d0]" started-at="2021-02-23T16:46:09 AEDT" name="List_all_properties_Test" finished-at="2021-02-23T16:46:18 AEDT" duration-ms="8881" status="PASS">
+        <test-method signature="List_all_properties_Test()[pri:0, instance:com.RealEstate.testCases.PropertiesForSaleTest@6be968ce]" started-at="2021-02-23T17:44:42 AEDT" name="List_all_properties_Test" finished-at="2021-02-23T17:44:50 AEDT" duration-ms="7328" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- List_all_properties_Test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.RealEstate.testCases.PropertiesForSaleTest@247310d0]" started-at="2021-02-23T16:46:18 AEDT" name="tearDown" finished-at="2021-02-23T16:46:18 AEDT" duration-ms="196" status="PASS">
+        <test-method signature="Verify_AgentDetailsTest()[pri:0, instance:com.RealEstate.testCases.PropertiesForSaleTest@6be968ce]" started-at="2021-02-23T17:44:50 AEDT" name="Verify_AgentDetailsTest" finished-at="2021-02-23T17:44:57 AEDT" duration-ms="7139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_AgentDetailsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.RealEstate.testCases.PropertiesForSaleTest@6be968ce]" started-at="2021-02-23T17:44:57 AEDT" name="tearDown" finished-at="2021-02-23T17:45:01 AEDT" duration-ms="4177" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
