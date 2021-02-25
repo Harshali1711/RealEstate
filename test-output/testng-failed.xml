@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.RealEstate.testCases.PropertiesForSaleTest">
+      <class name="com.RealEstate.testCases.AgentInfoTest">
         <methods>
-          <include name="List_all_properties_Test"/>
+          <include name="verifyAgentLabel"/>
           <include name="Setup"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.RealEstate.testCases.PropertiesForSaleTest -->
+      </class> <!-- com.RealEstate.testCases.AgentInfoTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
